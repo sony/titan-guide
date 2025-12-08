@@ -49,9 +49,10 @@ Please see `./scripts` for examplar scripts.
 
 ## 📚 Citation
 If you use TITAN-Guide in your research, please cite:
+```
 @inproceedings{titan-guide,
   title={TITAN-Guide: Taming Inference-Time AligNment for Guided Text-to-Video Diffusion Models},
   booktitle={ICCV},
   year={2025}
 }
-
+```
