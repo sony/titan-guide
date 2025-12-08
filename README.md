@@ -40,6 +40,7 @@ This method enables **multi-modal control** (e.g., audio, style, aesthetics) wit
 ```bash
 git clone https://github.com/sony/titan-guide.git
 cd titan-guide
+```
 
 ---
 ## 💽 Usage
