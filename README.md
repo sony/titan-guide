@@ -38,7 +38,7 @@ This method enables **multi-modal control** (e.g., audio, style, aesthetics) wit
 
 ## 🛠️ Installation
 ```bash
-git clone https://github.com/<your-org>/titan-guide.git
+git clone https://github.com/sony/titan-guide.git
 cd titan-guide
 
 ---
