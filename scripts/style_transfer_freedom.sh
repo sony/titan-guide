@@ -7,10 +7,10 @@ model_name_or_path='emilianJR/epiCRealism'
 task=style_transfer
 # task=style_transfer_nograd
 guide_network='openai/clip-vit-base-patch16'
-target='/mnt/data2/chris/code/Training-Free-Guidance/data/wikiart/0.png'
+target='./data/wikiart/0.png'
 recur_steps=1
 rho_schedule="decrease"
-save_path="/mnt/data2/chris/outputs/video_gen_guide/style_transfer/freedom_2/"
+save_path="./outputs/video_gen_guide/style_transfer/freedom_2/"
 # task=style_transfer
 
 
