@@ -206,8 +206,8 @@ class StableDiffusionVideoStdSampler(BaseSampler):
                 for t in tqdm(range(self.inference_steps), total=self.inference_steps):
          
                     if 'video_inpainting' in self.args.task : ## only for titan-guide gradest
-                        latents[:start_idx+2] = encode_vid[:start_idx+2]
-                        latents[end_idx-2:] = encode_vid[end_idx-2:]
+                        latents[:, :, :start_idx+2] = encode_vid[:, :, :start_idx+2]
+                        latents[:, :, end_idx-2:] = encode_vid[:, :, end_idx-2:]
 
                     def stable_diffusion_unet(latents, t, text_embed=None):
                         # with autocast(True):
